@@ -28,7 +28,7 @@ cd /usr/bin/jellyfish
 wget https://github.com/gmarcais/Jellyfish/releases/download/v2.3.0/jellyfish-linux
 mv /usr/bin/jellyfish/jellyfish-linux /usr/bin/jellyfish/jellyfish
 export PATH="$PATH:/usr/bin/jellyfish"
-
+chmod +x  /usr/bin/jellyfish/jellyfish
 
 #trinity
 
@@ -40,4 +40,6 @@ echo '#include <string>' | cat - /etc/trinity/trinity-deploy/trinityrnaseq-v2.15
 cd /etc/trinity/trinity-deploy/trinityrnaseq-v2.15.1/
 make
 
-export TRINITY_HOME=/etc/trinity/trinity-deploy/trinityrnaseq-v2.15.1/
+export TRINITY_HOME=/etc/trinity/trinity-deploy/trinityrnaseq-v2.15.1
+
+
