@@ -3,6 +3,8 @@
 
 #Dep install
 
+apt update
+
 apt install python3-numpy -y
 apt install zlib1g-dev -y
 apt install build-essential cmake libbz2-dev  libncurses5-dev libncursesw5-dev liblzma-dev autoconf zip bowtie2 salmon default-jre  -y
